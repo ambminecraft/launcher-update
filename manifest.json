@@ -12,13 +12,8 @@
       "path": "options.txt"
     },
     {
-      "path": "mods/CustomRPC-2.1.jar",
-      "url": "https://cdn.modrinth.com/data/EylDiLnx/versions/Pu6Zg3dG/CustomRPC-2.1.jar",
-      "sha1": "b4de31b44c0ac16079e1d8994dbbe60cf0d01ea8"
-    },
-    {
-      "path": "config/custom_rpc.json",
-      "url": "config/custom_rpc.json",
+      "path": "config/simple-rpc/simple-rpc.toml",
+      "url": "config/simple-rpc/simple-rpc.toml",
       "overwrite": true
     },
     {
@@ -155,6 +150,16 @@
       "path": "mods/sound-physics-remastered-fabric-1.21.11-1.5.2.jar",
       "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/61lf1wKt/sound-physics-remastered-fabric-1.21.11-1.5.2.jar",
       "sha1": "eaa2ab3dc03f304f62a7beb7090a69594ea57df2"
+    },
+    {
+      "path": "mods/SimpleRPC-4.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/ObXSoyrn/versions/g6OmXHMq/SimpleRPC-4.1.4.jar",
+      "sha1": "fe7e47214681cd724c4b8b346bb0aa11bea4e9c7"
+    },
+    {
+      "path": "mods/CraterLib-Fabric-1.21.11-3.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/Nn8Wasaq/versions/14aBVXeR/CraterLib-Fabric-1.21.11-3.1.3.jar",
+      "sha1": "c1ae009d2988afae0ecca4dceb20f816a6e3e073"
     }
   ]
 }

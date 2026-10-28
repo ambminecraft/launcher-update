@@ -1,0 +1,260 @@
+
+#Общие настройки. Документация: https://srpc.fdd-docs.com/introduction/
+[general]
+	#ID приложения Discord, которое будет использоваться
+	applicationID = "1130503170309771374"
+	#Включить/выключить мод
+	enabled = true
+	#Включить/выключить режим отладки. ВНИМАНИЕ: МОЖЕТ ЗАСПАМИТЬ ЛОГ!
+	debugging = false
+	#Определять совместимые лаунчеры, чтобы использовать их название и иконку в конфиге
+	launcherIntegration = false
+	#Разрешить использовать локальные файлы изображений как иконки RPC
+	rpcImageServer = false
+	#URL сервера изображений RPC для локальных картинок. После изменения нужен перезапуск
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	#Внутренний номер версии. НЕ ТРОГАТЬ!
+	version = 27
+
+#Событие: загрузка игры
+[init]
+	#Включить/выключить событие загрузки игры
+	enabled = true
+
+	[[init.presence]]
+		type = "PLAYING"
+		description = "Minecraft загружается"
+		state = "Игра запускается..."
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено модов: {{game.mods}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[init.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: главное меню
+[main_menu]
+	#Включить/выключить событие главного меню
+	enabled = true
+
+	[[main_menu.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} сейчас страдает хуйнёй"
+		state = "Кайфует"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[main_menu.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: список серверов
+[server_list]
+	#Включить/выключить событие списка серверов
+	enabled = true
+
+	[[server_list.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} ищет сервер"
+		state = "Ищет друзей"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[server_list.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: экран Realms
+[realms_list]
+	#Включить/выключить событие экрана Realms
+	enabled = true
+
+	[[realms_list.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} ищет Realm"
+		state = "Смотрит список Realms"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[realms_list.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: вход в игру
+[join_game]
+	#Включить/выключить событие входа в игру
+	enabled = true
+
+	[[join_game.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} заходит в игру"
+		state = "Вход в игру"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[join_game.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: одиночная игра
+[single_player]
+	#Включить/выключить событие одиночной игры
+	enabled = true
+
+	[[single_player.presence]]
+		type = "PLAYING"
+		description = "Сейчас в мире {{world.name}}"
+		state = "Играет в одиночку"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[single_player.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: сетевая игра
+[multi_player]
+	#Включить/выключить событие сетевой игры
+	enabled = true
+
+	[[multi_player.presence]]
+		type = "PLAYING"
+		description = "Играет на {{server.name}}, игроков: {{server.players.count}}"
+		state = "Играет онлайн"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[multi_player.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: игра в Realms
+[realms]
+	#Включить/выключить событие игры в Realms
+	enabled = true
+
+	[[realms.presence]]
+		type = "PLAYING"
+		description = "Играет на {{realm.name}}"
+		state = "Играет на Realm"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[realms.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Событие: пауза
+[paused]
+	#Включить/выключить событие паузы
+	enabled = true
+
+	[[paused.presence]]
+		type = "PLAYING"
+		description = "В меню паузы"
+		state = "Игра на паузе"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[paused.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Запасное событие для выключенных событий
+[generic]
+
+	[[generic.presence]]
+		type = "PLAYING"
+		description = "Играет в Minecraft"
+		state = ""
+		largeImageKey = ["mclogonew"]
+		largeImageText = "t.me/ambminecraft"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено модов: {{game.mods}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+
+		[[generic.presence.buttons]]
+			label = "Присоединиться"
+			url = "https://www.ambminecraft.ru/"
+
+#Пользовательские переменные для конфига
+[custom]
+	#Обрабатывать ли эти переменные вместе с остальными
+	enabled = true
+	#Ваши пользовательские переменные
+	variables = []
+
+#Переопределение информации об измерениях
+[dimension_overrides]
+	#Позволяет переопределить отображаемые значения для измерений
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} в Верхнем мире"
+			state = ""
+			largeImageKey = ["overworld"]
+			largeImageText = "В Верхнем мире"
+			smallImageKey = ["mclogo"]
+			smallImageText = "Установлено модов: {{game.mods}}"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} в Незере"
+			state = ""
+			largeImageKey = ["nether"]
+			largeImageText = "В Незере"
+			smallImageKey = ["mclogo"]
+			smallImageText = "Установлено модов: {{game.mods}}"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} в Энде"
+			state = ""
+			largeImageKey = ["end"]
+			largeImageText = "В Энде"
+			smallImageKey = ["mclogo"]
+			smallImageText = "Установлено модов: {{game.mods}}"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
