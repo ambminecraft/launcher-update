@@ -17,8 +17,8 @@
       "sha1": "b4de31b44c0ac16079e1d8994dbbe60cf0d01ea8"
     },
     {
-      "path": "config/custom_rpc/Configs/amb.json",
-      "url": "config/custom_rpc/Configs/amb.json",
+      "path": "config/custom_rpc.json",
+      "url": "config/custom_rpc.json",
       "overwrite": true
     },
     {
