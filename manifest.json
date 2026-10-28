@@ -52,24 +52,14 @@
       "sha1": "e1f738a9026e9f087d96861935f994b010b8131a"
     },
     {
-      "path": "mods/sodium-fabric-0.8.15-beta.1+mc1.21.11.jar",
-      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/RB7CDjTS/sodium-fabric-0.8.15-beta.1%2Bmc1.21.11.jar",
-      "sha1": "5469cef6f5dddd72a1216d9a15393c90d8eb5f33"
-    },
-    {
-      "path": "mods/sodium-extra-fabric-0.9.6-beta.1+mc1.21.11.jar",
-      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/yBG8AXdG/sodium-extra-fabric-0.9.6-beta.1%2Bmc1.21.11.jar",
-      "sha1": "7c4eba5bf7bb9ad6f3915d73a5473eb65139d3d3"
+      "path": "mods/sodium-fabric-0.8.12+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/NFkjnzWE/sodium-fabric-0.8.12%2Bmc1.21.11.jar",
+      "sha1": "4d80592bef36674e7469ae2737a7704b826289ae"
     },
     {
       "path": "mods/shulkerboxtooltip-fabric-5.2.16+1.21.11.jar",
       "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/rZovgkWT/shulkerboxtooltip-fabric-5.2.16%2B1.21.11.jar",
       "sha1": "3f889de77a0aec69ffcfd28bf6fb2c077443788a"
-    },
-    {
-      "path": "mods/reeses-sodium-options-fabric-2.2.6-beta.1+mc1.21.11.jar",
-      "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/5NexXh0N/reeses-sodium-options-fabric-2.2.6-beta.1%2Bmc1.21.11.jar",
-      "sha1": "7acb4b9b849df630f2820f8992dc194c0dba0592"
     },
     {
       "path": "mods/iris-fabric-1.10.8+mc1.21.11.jar",
@@ -110,6 +100,51 @@
       "path": "mods/cloth-config-21.11.153-fabric.jar",
       "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/xuX40TN5/cloth-config-21.11.153-fabric.jar",
       "sha1": "4c224606a963bce223db5b27edb4959ecf40d4ee"
+    },
+    {
+      "path": "mods/lithium-fabric-0.21.4+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/Ow7wA0kG/lithium-fabric-0.21.4%2Bmc1.21.11.jar",
+      "sha1": "203bdcb26e97b3217b045e1182651a7d7b6462ec"
+    },
+    {
+      "path": "mods/ferritecore-8.2.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/Ii0gP3D8/ferritecore-8.2.0-fabric.jar",
+      "sha1": "c2e2f5e008f5bc9f401dfad8ca94909917006b65"
+    },
+    {
+      "path": "mods/entityculling-fabric-1.11.3-mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/CTabrwB1/entityculling-fabric-1.11.3-mc1.21.11.jar",
+      "sha1": "ce2e1cf7e343a625d184c80ccea582d468686a2e"
+    },
+    {
+      "path": "mods/ImmediatelyFast-Fabric-1.14.3+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/4EwhsTu7/ImmediatelyFast-Fabric-1.14.3%2B1.21.11.jar",
+      "sha1": "43e451464f979bdf9ff4ac288b358a2f91b79ed8"
+    },
+    {
+      "path": "mods/krypton-0.2.10.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar",
+      "sha1": "94ddaeeae6ca7fecc79e54a0aa02a5438a775a99"
+    },
+    {
+      "path": "mods/moreculling-fabric-1.21.11-1.6.2.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/wOzykoLV/moreculling-fabric-1.21.11-1.6.2.jar",
+      "sha1": "11a929de62650cc536244d4c2ba889fa84c1c0f2"
+    },
+    {
+      "path": "mods/voxy-0.2.16-beta+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/fxxUqruK/versions/H3w2nVdU/voxy-0.2.16-beta%2B1.21.11.jar",
+      "sha1": "280a55279e0860d29146d908cd8a0246a12e2537"
+    },
+    {
+      "path": "mods/sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/yqY1efrC/sodium-extra-fabric-0.8.3%2Bmc1.21.11.jar",
+      "sha1": "e8fd1eae0d589393189f64062ca1e46fc03f4ced"
+    },
+    {
+      "path": "mods/reeses-sodium-options-fabric-2.1.0+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/nBl8LONA/reeses-sodium-options-fabric-2.1.0%2Bmc1.21.11.jar",
+      "sha1": "b5e85fca31521b55cf5ecd0546ab53e1bc3f8961"
     }
   ]
 }
