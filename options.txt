@@ -1,0 +1,14 @@
+lang:ru_ru
+hideSplashTexts:true
+darkMojangStudiosBackground:true
+gamma:1.0
+guiScale:2
+enableVsync:false
+maxFps:260
+skipMultiplayerWarning:true
+telemetryOptInExtra:false
+onlyShowSecureChat:false
+realmsNotifications:false
+narratorHotkey:false
+soundCategory_master:0.5
+soundCategory_music:0.0

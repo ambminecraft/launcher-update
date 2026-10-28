@@ -1,0 +1,115 @@
+{
+  "java": {
+    "x64": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-x64.zip",
+    "arm64": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-aarch64.zip"
+  },
+  "files": [
+    {
+      "path": "servers.dat",
+      "overwrite": true
+    },
+    {
+      "path": "options.txt"
+    },
+    {
+      "path": "mods/CustomRPC-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/EylDiLnx/versions/Pu6Zg3dG/CustomRPC-2.1.jar",
+      "sha1": "b4de31b44c0ac16079e1d8994dbbe60cf0d01ea8"
+    },
+    {
+      "path": "config/custom_rpc/Configs/amb.json",
+      "url": "config/custom_rpc/Configs/amb.json",
+      "overwrite": true
+    },
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+      "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
+      "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6"
+    },
+    {
+      "path": "shaderpacks/photon_v1.4.zip",
+      "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/BnGklH5y/photon_v1.4.zip",
+      "sha1": "96c7730f5891a42e39bbf1f0f5a98fa99628a7fe"
+    },
+    {
+      "path": "mods/MouseTweaks-fabric-mc1.21.11-2.30.jar",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/i1duwnJl/MouseTweaks-fabric-mc1.21.11-2.30.jar",
+      "sha1": "86515de45fe960bd717deea0954055106e857b81"
+    },
+    {
+      "path": "mods/plasmovoice-fabric-1.21.11-2.2.0-beta.2.jar",
+      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/vb77XXZT/plasmovoice-fabric-1.21.11-2.2.0-beta.2.jar",
+      "sha1": "b91d0f8edc86fef9128646ea5fd107c14788a346"
+    },
+    {
+      "path": "mods/modmenu-17.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/cLkYaVuL/modmenu-17.0.1.jar",
+      "sha1": "d5612d70bda58e0179b177ca9990e57471e67d19"
+    },
+    {
+      "path": "mods/zoomify-2.15.2+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/gI5KZI8V/zoomify-2.15.2%2B1.21.11.jar",
+      "sha1": "e1f738a9026e9f087d96861935f994b010b8131a"
+    },
+    {
+      "path": "mods/sodium-fabric-0.8.15-beta.1+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/RB7CDjTS/sodium-fabric-0.8.15-beta.1%2Bmc1.21.11.jar",
+      "sha1": "5469cef6f5dddd72a1216d9a15393c90d8eb5f33"
+    },
+    {
+      "path": "mods/sodium-extra-fabric-0.9.6-beta.1+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/yBG8AXdG/sodium-extra-fabric-0.9.6-beta.1%2Bmc1.21.11.jar",
+      "sha1": "7c4eba5bf7bb9ad6f3915d73a5473eb65139d3d3"
+    },
+    {
+      "path": "mods/shulkerboxtooltip-fabric-5.2.16+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/rZovgkWT/shulkerboxtooltip-fabric-5.2.16%2B1.21.11.jar",
+      "sha1": "3f889de77a0aec69ffcfd28bf6fb2c077443788a"
+    },
+    {
+      "path": "mods/reeses-sodium-options-fabric-2.2.6-beta.1+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/5NexXh0N/reeses-sodium-options-fabric-2.2.6-beta.1%2Bmc1.21.11.jar",
+      "sha1": "7acb4b9b849df630f2820f8992dc194c0dba0592"
+    },
+    {
+      "path": "mods/iris-fabric-1.10.8+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/ka9PDlsN/iris-fabric-1.10.8%2Bmc1.21.11.jar",
+      "sha1": "acfbe6d065b6c35d85c14da04d35e073363f3acf"
+    },
+    {
+      "path": "mods/fast-ip-ping-v1.0.12-mc1.21.11-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/d92wadxK/fast-ip-ping-v1.0.12-mc1.21.11-fabric.jar",
+      "sha1": "01b29cf344e1d665b888d41f9650835eb347771e"
+    },
+    {
+      "path": "mods/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/6qAuTtLR/fabric-api-0.141.6%2B1.21.11.jar",
+      "sha1": "c98467cbbaf4d197377266795ae015f4130d65b6"
+    },
+    {
+      "path": "mods/placeholder-api-2.8.2+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar",
+      "sha1": "bbdc920ecff993148cd6e81a208536132245ce40"
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+      "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+      "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0"
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.11-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/pHWDw3Vc/yet_another_config_lib_v3-3.8.2%2B1.21.11-fabric.jar",
+      "sha1": "f99cda70903f16dd6927a276150b2762b4d5ab66"
+    },
+    {
+      "path": "mods/skinlayers3d-fabric-1.11.4-mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/DsBJ7HB2/skinlayers3d-fabric-1.11.4-mc1.21.11.jar",
+      "sha1": "38e389c21847593e447f3af341135ba0ca8829fc"
+    },
+    {
+      "path": "mods/cloth-config-21.11.153-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/xuX40TN5/cloth-config-21.11.153-fabric.jar",
+      "sha1": "4c224606a963bce223db5b27edb4959ecf40d4ee"
+    }
+  ]
+}
