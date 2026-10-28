@@ -145,6 +145,16 @@
       "path": "mods/reeses-sodium-options-fabric-2.1.0+mc1.21.11.jar",
       "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/nBl8LONA/reeses-sodium-options-fabric-2.1.0%2Bmc1.21.11.jar",
       "sha1": "b5e85fca31521b55cf5ecd0546ab53e1bc3f8961"
+    },
+    {
+      "path": "mods/pv-addon-soundphysics-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/K1y8brkJ/versions/kmyhU2jp/pv-addon-soundphysics-1.1.2.jar",
+      "sha1": "0ae889cc772b52446a4db96254db2e73f3688bb3"
+    },
+    {
+      "path": "mods/sound-physics-remastered-fabric-1.21.11-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/61lf1wKt/sound-physics-remastered-fabric-1.21.11-1.5.2.jar",
+      "sha1": "eaa2ab3dc03f304f62a7beb7090a69594ea57df2"
     }
   ]
 }
